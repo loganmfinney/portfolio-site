@@ -1,3 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #363430;
+  box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.75);
+  position: relative;
+}
+
+.logo {
+  max-width: 250px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+nav > ul > li {
+  display: block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fffdf7;
+  width: 100%;
+  text-decoration: none;
+}
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fffdf7;
+  font-size: 20px;
+  width: 100%;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+  text-decoration: none;
+  text-decoration-color: #d24a0a;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f96e2c;
+  font-size: 20px;
+  width: 100%;
+}
+
+#hero {
+  background-color: #363430;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero {
+  text-align: center; /* Centers text */
+  color: #fffdf7;
+  margin: 0;
+ padding: 0.67em 0;
+}
+
+#work .row {
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+}
+
+main {
+  padding-top: 133px;
+}
+
+
+
 body {
   background-color: #fffdf7;
   font-family: 'Overpass', sans-serif;
@@ -40,7 +132,7 @@ img {
   width: 100%;
 }
 
-.button {
+.button.view {
   background-color: #transparent;
   color: #363430;
   /* needed to override the default link color */
@@ -48,9 +140,10 @@ img {
   padding: 10px;
   text-transform: uppercase;
   border: 2px solid #363430;
+  text-decoration: none;
 }
 
-.button:hover {
+.button.view:hover {
   background-color: #363430;
   color: #fffdf7;
   text-decoration: none;
@@ -64,6 +157,7 @@ img {
   padding: 10px;
   text-transform: uppercase;
   border: 2px solid #f96e2c;
+  text-decoration: none;
 }
 
 .button.contact:hover {
@@ -71,42 +165,25 @@ img {
   color: #fffdf7;
   text-decoration: none;
 }
-
-.nav {
-  font-weight: 700;
-  font-size: 28px;
-  padding: 10px;
-}
-
-.nav:hover {
-  font-weight: 700;
-  font-size: 28px;
-  padding: 10px;
-  text-decoration: none;
-}
-
 a {
   color: #f96e2c;
   text-decoration: none;
-  /* No underlining */
 }
 
 a:hover {
-  color: #D24A0A;
-  text-decoration: underline;
-
-  /* Underlining when hovering over a link */
-  a:visited {
-    /* visited link */
-    color: #f96e2c;
-  }
-
-  a:focus {
-    color: #d24a0a;
-    text-decoration: underline;
-  }
-
-  a:active {
-    /* selected link */
-    color: #f96e2c;
-  }
+  color: #d24a0a;
+  text-decoration: none;
+}
+a:visited {
+  color: #f96e2c;
+  text-decoration: none;
+}
+#linkedin {
+  padding: 20px;
+    width: 15%;
+}
+footer {
+  background-color: #363430;
+  text-align: center;
+  color: #fffdf7;
+}
