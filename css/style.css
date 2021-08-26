@@ -1,0 +1,112 @@
+body {
+  background-color: #fffdf7;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 400;
+  /* Sets the font weight to 300 */
+  line-height: 1.4;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #363430;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+}
+
+/* image width */
+img {
+  width: 100%;
+}
+
+.button {
+  background-color: #transparent;
+  color: #363430;
+  /* needed to override the default link color */
+  font-weight: 700;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid #363430;
+}
+
+.button:hover {
+  background-color: #363430;
+  color: #fffdf7;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: #transparent;
+  color: #f96e2c;
+  /* needed to override the default link color */
+  font-weight: 700;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid #f96e2c;
+}
+
+.button.contact:hover {
+  background-color: #f96e2c;
+  color: #fffdf7;
+  text-decoration: none;
+}
+
+.nav {
+  font-weight: 700;
+  font-size: 28px;
+  padding: 10px;
+}
+
+.nav:hover {
+  font-weight: 700;
+  font-size: 28px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: #f96e2c;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:hover {
+  color: #D24A0A;
+  text-decoration: underline;
+
+  /* Underlining when hovering over a link */
+  a:visited {
+    /* visited link */
+    color: #f96e2c;
+  }
+
+  a:focus {
+    color: #d24a0a;
+    text-decoration: underline;
+  }
+
+  a:active {
+    /* selected link */
+    color: #f96e2c;
+  }
